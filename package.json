@@ -1,0 +1,28 @@
+{
+  "name": "scraping-news",
+  "version": "1.0.0",
+  "description": "\"Homework that scrapes news articles from nytimes\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoonSquad88/Scraping-News.git"
+  },
+  "author": "'Jonatan Viera'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoonSquad88/Scraping-News/issues"
+  },
+  "homepage": "https://github.com/GoonSquad88/Scraping-News#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.5.6",
+    "morgan": "^1.9.1"
+  }
+}
